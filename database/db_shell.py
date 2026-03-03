@@ -15,7 +15,13 @@ SQLite Interactive Shell Commands:
   .schema [table]      Show CREATE statements
   .describe [table]    Show table structure
   .quit or .exit       Exit the shell
-  
+
+Notes app tables you should see after init:
+  - notes
+  - tags
+  - note_tags
+  - notes_fts (optional, only if FTS5 is available)
+
 Standard SQL commands are also supported (SELECT, INSERT, UPDATE, DELETE, etc.)
 """)
 
